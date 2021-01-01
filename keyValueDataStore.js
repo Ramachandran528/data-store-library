@@ -5,7 +5,6 @@ class keyValueDataStore{
     fs = require("fs");
     constructor(filePath=process.cwd()+"/database.json") {
         this.filePath=path.normalize(filePath);
-        console.log(this.filePath);
         // Checking if the file exists
         if (this.fs.existsSync(this.filePath)) {
             try 
