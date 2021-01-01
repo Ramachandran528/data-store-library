@@ -14,7 +14,7 @@ The methods which are available in the modules are.
 To import the module if it is present in the same folder:
 
 ```javascript
-const keyValueDataStore = require("./keyValueDatastore");
+const keyValueDataStore = require("./keyValueDataStore");
 ```
 
 ## 1) read()
